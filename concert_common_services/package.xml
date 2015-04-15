@@ -1,0 +1,23 @@
+<package>
+  <name>concert_common_services</name>
+  <version>0.0.0</version>
+  <description>
+      Services to use commonly in demo
+  </description>
+  <maintainer email="dwlee@yujinrobot.com">Dongwook Lee</maintainer>
+  <license>BSD</license>
+  <author>Dongwook Lee</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>kobuki_soft</run_depend>
+  <run_depend>concert_service_link_graph</run_depend>
+  <run_depend>concert_software_farmer</run_depend>
+  
+  <export>
+    <concert_service>services/pickup_delivery/pickup_delivery.service</concert_service>
+    <concert_service>services/vm_delivery/vm_delivery.service</concert_service>
+    <concert_service>services/welcome/welcome.service</concert_service>
+  </export>
+</package>
