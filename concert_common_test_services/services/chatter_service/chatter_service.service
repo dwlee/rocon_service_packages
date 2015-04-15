@@ -1,0 +1,8 @@
+name: chatter_service
+description: Chatter service
+author: dwlee
+priority: 10000
+interactions: chatter_service.interactions
+parameters: chatter_service.parameters
+launcher_type: ros_launcher
+launcher: chatter_service.launcher

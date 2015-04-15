@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <package>
   <name>concert_common_test_services</name>
   <version>0.0.0</version>
@@ -11,6 +12,6 @@
   <buildtool_depend>catkin</buildtool_depend>
   
   <export>
-  </export>
+  <concert_service>services/chatter_service/chatter_service.service</concert_service></export>
 
 </package>
