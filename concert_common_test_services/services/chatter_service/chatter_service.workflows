@@ -1,2 +1,2 @@
 workflows:
-  - workflow: concert_common_test_services/chatter_wf
+  - workflow: concert_common_test_services/chatter_wf.wf
