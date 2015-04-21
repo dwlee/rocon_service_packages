@@ -1,0 +1,8 @@
+name: chatter_servicez
+description: Chatter service 5
+author: dwlee
+priority: 10000
+interactions: concert_common_test_services/chatter_servicez
+parameters: concert_common_test_services/chatter_servicez
+launcher_type: roslaunch
+launcher: concert_common_test_services/chatter_servicez
