@@ -1,6 +1,6 @@
 - _id: 54d1990eff2289862cc6c66c
   display_name: Pickup Delivery Order
-  name: "web_app(http://__WEBSERVER_ADDRESS__/pickup_delivery_order/index.html)"
+  name: Pickup Delivery Order
   role: Customer
   compatibility: "rocon:/*/*/indigo/chrome|firefox"
   description: Delivery from pickup to a desk
@@ -11,7 +11,7 @@
     - remap_from: delivery_status
       remap_to: /delivery_status
     - remap_from: tables
-      remap_to: /tables
+      remap_to: /annotation/tables
   parameters:
     rosbridge_address: __ROSBRIDGE_ADDRESS__
     rosbridge_port: __ROSBRIDGE_PORT__
