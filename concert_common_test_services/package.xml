@@ -11,7 +11,5 @@
     <buildtool_depend>catkin</buildtool_depend>
     <export>
         <concert_service>services/chatter_service/chatter_service.service</concert_service>
-        <concert_service>services/chatter_service/chatter_service.service</concert_service>
-        <concert_service>services/chatter_service/chatter_service.service</concert_service>
     </export>
 </package>
