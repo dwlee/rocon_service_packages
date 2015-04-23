@@ -1,5 +1,4 @@
-- _id: 54d1990eff2289862cc6c66c
-  display_name: Pickup Delivery Order
+- display_name: Pickup Delivery Order
   name: "web_app(http://__WEBSERVER_ADDRESS__/pickup_delivery_order/index.html)"
   role: Customer
   compatibility: "rocon:/*/*/indigo/chrome|firefox"
