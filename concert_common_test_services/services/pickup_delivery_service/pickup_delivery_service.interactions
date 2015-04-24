@@ -15,3 +15,28 @@
     rosbridge_address: __ROSBRIDGE_ADDRESS__
     rosbridge_port: __ROSBRIDGE_PORT__
     discard_btn_name: "[pickup, docking, docking, vm, base, base_front]"
+- display_name: Pickup Delivery Monitoring
+  name: "web_app(http://__WEBSERVER_ADDRESS__/concert_delivery_monitor/index.html)"
+  role: Manager
+  compatibility: ""
+  description: "Monitoring of delivery status regarding order, robot pose, delivery position"
+  max: -1
+  remappings:
+    - remap_from: map
+      remap_to: /map
+    - remap_from: tables
+      remap_to: /annotation/tables
+    - remap_from: ar_markers
+      remap_to: /annotation/ar_markers
+    - remap_from: order_list
+      remap_to: /order_list
+    - remap_from: nav_ctrl
+      remap_to: /waypoint_navigation/nav_ctrl
+    - remap_from: nav_ctrl_status
+      remap_to: /waypoint_navigation/nav_ctrl_status
+  parameters:
+    rosbridge_address: __ROSBRIDGE_ADDRESS__
+    rosbridge_port: __ROSBRIDGE_PORT__
+    robot1: adams
+    robot2: zach
+    robot3: young
