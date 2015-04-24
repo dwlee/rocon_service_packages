@@ -1,0 +1,8 @@
+ar_topic: /annotation/ar_markers
+map_name: october
+map_topic: /map
+table_topic: /annotation/tables
+viz_ar_topic: /annotation/viz_ar_markers
+viz_table_topic: /annotation/viz_tables
+world: yujin_rnd
+workflows: concert_common_test_services/vm_delivery_service.workflows
