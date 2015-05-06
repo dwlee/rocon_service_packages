@@ -1,9 +1,9 @@
 - display_name: Pickup Delivery Order
-  name: "web_app(http://__WEBSERVER_ADDRESS__/concert_common_web_interface/pickup_delivery_order/index.html)"
+  name: "web_app(http://__WEBSERVER_ADDRESS__/pickup_delivery_order/index.html)"
   description: Delivery from pickup to a desk
   compatibility: "rocon:/*/*/indigo/chrome|firefox"
   max: "1000"
-  role: Role
+  role: Customer
   remappings:
     - remap_from: send_order
       remap_to: /pickup_send_order
