@@ -4,6 +4,7 @@ map_topic: /map
 table_topic: /annotation/tables
 viz_ar_topic: /annotation/viz_ar_markers
 viz_table_topic: /annotation/viz_tables
-wc_namespace: /software/world_canvas
 world: yujin_rnd
+alloc_timeout: "100000000000"
+action_timeout: "100000000000"
 workflows: concert_common_test_services/pickup_delivery_service.workflows
