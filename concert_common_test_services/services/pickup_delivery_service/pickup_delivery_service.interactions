@@ -2,7 +2,7 @@
   name: "web_app(http://__WEBSERVER_ADDRESS__/pickup_delivery_order/index.html)"
   description: Delivery from pickup to a desk
   compatibility: "rocon:/*/*/indigo/chrome|firefox"
-  max: "1000"
+  max: -1
   role: Customer
   remappings:
     - remap_from: send_order
@@ -38,4 +38,5 @@
   name: "web_app(http://__WEBSERVER_ADDRESS__/concert_delivery_monitor/index.html)"
   role: Manager
   description: "Monitoring of delivery status regarding order, robot pose, delivery position"
-  max: "-1"
+  max: -1
+  compatibility: "rocon:/*/*/indigo/chrome|firefox"
