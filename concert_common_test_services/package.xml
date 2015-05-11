@@ -12,7 +12,6 @@
     <export>
         <concert_service>services/chatter_service/chatter_service.service</concert_service>
         <concert_service>services/pickup_delivery_service/pickup_delivery_service.service</concert_service>
-        <concert_service>services/vm_deliver_service/vm_deliver_service.service</concert_service>
         <concert_service>services/vm_delivery_service/vm_delivery_service.service</concert_service>
         <concert_service>services/welcome_service/welcome_service.service</concert_service>
         <concert_service>services/pickup_delivery_test_service/pickup_delivery_test_service.service</concert_service>
