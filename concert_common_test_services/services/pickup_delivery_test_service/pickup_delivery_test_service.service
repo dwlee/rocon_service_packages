@@ -1,8 +1,0 @@
-name: pickup_delivery_test_service
-description: pickup delivery test service
-author: dwlee
-priority: 10000
-interactions: concert_common_test_services/pickup_delivery_test_service
-parameters: concert_common_test_services/pickup_delivery_test_service
-launcher_type: roslaunch
-launcher: concert_common_test_services/pickup_delivery_test_service

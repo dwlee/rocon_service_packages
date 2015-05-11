@@ -1,2 +1,0 @@
-workflows:
-  - workflow: concert_common_test_services/welcome_without_prezi_wf.wf
