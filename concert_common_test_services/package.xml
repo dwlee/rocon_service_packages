@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+    <name>concert_common_test_services</name>
+    <version>0.0.0</version>
+    <description>
+      Services made by composer
+  </description>
+    <maintainer email="dwlee@yujinrobot.com">Dongwook Lee</maintainer>
+    <license>BSD</license>
+    <author>Dongwook Lee</author>
+    <buildtool_depend>catkin</buildtool_depend>
+    <export>
+        <concert_service>services/chatter_service/chatter_service.service</concert_service>
+        <concert_service>services/pickup_delivery_test_service/pickup_delivery_test_service.service</concert_service>
+        <concert_service>services/pickup_delivery/pickup_delivery.service</concert_service>
+    </export>
+</package>
