@@ -13,5 +13,6 @@
         <concert_service>services/chatter_service/chatter_service.service</concert_service>
         <concert_service>services/pickup_delivery_service/pickup_delivery_service.service</concert_service>
         <concert_service>services/pickup_delivery_test_service/pickup_delivery_test_service.service</concert_service>
+        <concert_service>services/pickup_delivery/pickup_delivery.service</concert_service>
     </export>
 </package>
