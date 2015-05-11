@@ -1,12 +1,10 @@
-- remappings: []
-  parameters: {}
-  display_name: Prezi Viewer
-  name: 'web_app(http://192.168.10.32:9999/prezi?prezi_id=32iuijp9zylz&channel=office_prezi&prezi_auto_load=true)'
-  role: Customer
-  description: Prezi Viewer
+- display_name: Pickup Delivery Order
+  name: 'web_app(http://__WEBSERVER_ADDRESS__/concert_common_web_interface/pickup_delivery_order/index.html)'
+  description: Delivery from pickup to a desk
   compatibility: 'rocon:/*/*/indigo/chrome|firefox'
   max: -1
-- remappings:
+  role: Role
+  remappings:
     - remap_from: send_order
       remap_to: /pickup_send_order
     - remap_from: delivery_status
@@ -17,12 +15,6 @@
     rosbridge_address: __ROSBRIDGE_ADDRESS__
     rosbridge_port: __ROSBRIDGE_PORT__
     discard_btn_name: '[pickup, docking, docking, vm, base, base_front]'
-  display_name: Pickup Delivery Order
-  name: 'web_app(http://__WEBSERVER_ADDRESS__/pickup_delivery_order/index.html)'
-  role: Customer
-  description: Delivery from pickup to a desk
-  compatibility: 'rocon:/*/*/indigo/chrome|firefox'
-  max: -1
 - remappings:
     - remap_from: map
       remap_to: /map
@@ -40,7 +32,7 @@
     rosbridge_address: __ROSBRIDGE_ADDRESS__
     rosbridge_port: __ROSBRIDGE_PORT__
     robot1: adams
-    robot2: zach
+    robo2: zach
     robot3: young
   display_name: Pickup Delivery Monitoring
   name: 'web_app(http://__WEBSERVER_ADDRESS__/concert_delivery_monitor/index.html)'
