@@ -1,2 +1,0 @@
-workflows:
-  - workflow: concert_common_test_services/pickup_delivery_without_prezi_wf.wf
