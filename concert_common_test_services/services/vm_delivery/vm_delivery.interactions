@@ -6,7 +6,7 @@
   role: Role
   remappings:
     - remap_from: send_order
-      remap_to: /send_order
+      remap_to: /vm_send_order
     - remap_from: delivery_status
       remap_to: /delivery_status
     - remap_from: tables
