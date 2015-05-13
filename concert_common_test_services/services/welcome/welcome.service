@@ -1,0 +1,8 @@
+name: welcome
+description: welcome for visitor
+author: dwlee
+priority: '100'
+interactions: concert_common_test_services/welcome
+parameters: concert_common_test_services/welcome
+launcher_type: roslaunch
+launcher: concert_common_test_services/welcome
