@@ -3,7 +3,7 @@
   description: Delivery drink from vm to a desk
   compatibility: 'rocon:/*/*/indigo/chrome|firefox'
   max: -1
-  role: Role
+  role: Customer
   remappings:
     - remap_from: send_order
       remap_to: /vm_send_order
