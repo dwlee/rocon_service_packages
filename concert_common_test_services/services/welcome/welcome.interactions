@@ -3,7 +3,7 @@
   description: Beacon Awareness
   compatibility: 'rocon:/*/*/*/jellybean|ice_cream_sandwich|kitkat'
   max: -1
-  role: Role
+  role: Customer
   remappings:
     - remap_from: /beacons
       remap_to: /beacons
