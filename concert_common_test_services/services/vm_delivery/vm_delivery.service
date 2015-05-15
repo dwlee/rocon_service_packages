@@ -1,7 +1,7 @@
 name: vm_delivery
 description: Delivery drink from Vending machine
 author: dwlee
-priority: '10'
+priority: 10
 interactions: concert_common_test_services/vm_delivery
 parameters: concert_common_test_services/vm_delivery
 launcher_type: roslaunch
