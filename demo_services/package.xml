@@ -35,5 +35,6 @@
     <export>
         <!-- Other tools can request additional information be placed here -->
         <concert_service>services/test_service/test_service.service</concert_service>
+        <concert_service>services/vm_delivery_service/vm_delivery_service.service</concert_service>
     </export>
 </package>
