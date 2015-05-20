@@ -1,0 +1,8 @@
+name: test_service
+description: including welcome
+author: dwlee
+priority: 123
+interactions: demo_services/test_service
+parameters: demo_services/test_service
+launcher_type: roslaunch
+launcher: demo_services/test_service
