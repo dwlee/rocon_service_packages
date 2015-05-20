@@ -1,0 +1,4 @@
+test_key: test_value
+test_key_integer: '111111'
+test_key_string: 123_one_two_three
+workflows: demo_services/test_service.workflows
