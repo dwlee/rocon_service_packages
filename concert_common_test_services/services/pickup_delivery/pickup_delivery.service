@@ -1,7 +1,7 @@
 name: pickup_delivery
 description: pickup delivery in office
 author: dwlee
-priority: 10000
+priority: '100000'
 interactions: concert_common_test_services/pickup_delivery
 parameters: concert_common_test_services/pickup_delivery
 launcher_type: roslaunch
