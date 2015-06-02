@@ -18,5 +18,6 @@
         <concert_service>services/non_sleep_test/non_sleep_test.service</concert_service>
         <concert_service>services/sleep_test/sleep_test.service</concert_service>
         <concert_service>services/sleep_test_with_bg/sleep_test_with_bg.service</concert_service>
+        <concert_service>services/while_test/while_test.service</concert_service>
     </export>
 </package>
