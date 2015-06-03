@@ -1,7 +1,7 @@
 name: pickup_delivery_test_service
 description: pickup delivery service test
 author: dwlee
-priority: 10000
+priority: 100
 interactions: concert_common_test_services/pickup_delivery_test_service
 parameters: concert_common_test_services/pickup_delivery_test_service
 launcher_type: roslaunch

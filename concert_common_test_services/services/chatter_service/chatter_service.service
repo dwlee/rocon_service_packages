@@ -1,7 +1,7 @@
 name: chatter_service
 description: Chatter service
 author: dwlee
-priority: 10000
+priority: 100
 interactions: concert_common_test_services/chatter_service
 parameters: concert_common_test_services/chatter_service
 launcher_type: roslaunch
