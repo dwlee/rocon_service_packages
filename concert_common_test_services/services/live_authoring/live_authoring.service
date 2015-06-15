@@ -1,0 +1,8 @@
+name: live_authoring
+description: live authoring service
+author: dwlee
+priority: 10
+interactions: concert_common_test_services/live_authoring
+parameters: concert_common_test_services/live_authoring
+launcher_type: roslaunch
+launcher: concert_common_test_services/live_authoring
