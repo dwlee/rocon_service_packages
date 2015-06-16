@@ -1,6 +1,6 @@
-- display_name: VM Drink Delivery Order (Table4)
+- display_name: VM Drink Delivery Order (conf_room)
   name: 'web_app(http://__WEBSERVER_ADDRESS__/vm_delivery_order/index.html)'
-  description: Delivery drink from vm to a desk
+  description: Delivery drink from vm to a conf_room
   compatibility: 'rocon:/*/*/indigo/chrome|firefox'
   max: -1
   role: Customer
@@ -14,4 +14,4 @@
   parameters:
     rosbridge_address: __ROSBRIDGE_ADDRESS__
     rosbridge_port: __ROSBRIDGE_PORT__
-    extra_data: table4
+    extra_data: conf_room
