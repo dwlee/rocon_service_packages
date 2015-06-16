@@ -1,2 +1,0 @@
-workflows:
-  - workflow: demo_services/welcome_wf.wf

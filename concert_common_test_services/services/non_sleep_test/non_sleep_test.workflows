@@ -1,2 +1,0 @@
-workflows:
-  - workflow: concert_common_test_services/sleep_wf.wf

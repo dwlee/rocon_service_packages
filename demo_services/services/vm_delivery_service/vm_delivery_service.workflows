@@ -1,2 +1,0 @@
-workflows:
-  - workflow: demo_services/vm_delivery_without_prezi_wf.wf

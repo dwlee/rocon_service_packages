@@ -12,8 +12,8 @@
     - remap_from: tables
       remap_to: /annotation/tables
   parameters:
-    rosbridge_address: __CONCERT_ROSBRIDGE_ADDRESS__
-    rosbridge_port: __CONCERT_ROSBRIDGE_PORT__
+    rosbridge_address: __ROSBRIDGE_ADDRESS__
+    rosbridge_port: __ROSBRIDGE_PORT__
     discard_btn_name: '[pickup, docking, docking, vm, base, base_front]'
 - remappings:
     - remap_from: map
@@ -44,14 +44,14 @@
   parameters: {}
   compatibility: 'rocon:/*/*/indigo/chrome|firefox'
   display_name: Prezi viewer
-  name: 'web_app(http://__CONCERT_WEBSERVER_ADDRESS__:__CONCERT_WORKFLOW_ENGINE_BLOCKLY_SERVER_PORT__/prezi?prezi_id=32iuijp9zylz&channel=office_prezi&prezi_auto_load=true)'
+  name: 'web_app(http://192.168.10.24:9999/prezi?prezi_id=32iuijp9zylz&channel=office_prezi&prezi_auto_load=true)'
   role: Manager
   description: System status viewer by Prezi
   max: 1000
 - remappings: []
   parameters: {}
   display_name: Workflow monitoring
-  name: 'web_app(http://__CONCERT_WEBSERVER_ADDRESS__:__CONCERT_WORKFLOW_ENGINE_BLOCKLY_SERVER_PORT__)'
+  name: 'web_app(http://192.168.10.24:9999)'
   role: Manager
   description: Workflow and resource allocation status monitoring
   compatibility: 'rocon:/*/*/indigo/chrome|firefox'

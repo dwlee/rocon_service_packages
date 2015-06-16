@@ -1,8 +1,0 @@
-name: sleep_test
-description: sleep
-author: dwlee
-priority: 11
-interactions: concert_common_test_services/sleep_test
-parameters: concert_common_test_services/sleep_test
-launcher_type: roslaunch
-launcher: concert_common_test_services/sleep_test
