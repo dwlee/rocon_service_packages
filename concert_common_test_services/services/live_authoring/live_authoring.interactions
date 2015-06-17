@@ -1,10 +1,10 @@
-- remappings:
-    - remap_from: /voice_command
-      remap_to: /voice_command
-  parameters: {}
-  display_name: Voice Commander
-  name: voice commander
-  role: Customer
+- display_name: Voice commander
+  name: com.github.turtlebot.turtlebot_android.voice_commander.indigo
   description: Voice commander to control robot
   compatibility: 'rocon:/*/*/*/jellybean|ice_cream_sandwich|kitkat'
   max: -1
+  role: Role
+  remappings:
+    - remap_from: /voice_command
+      remap_to: /voice_command
+  parameters: {}
