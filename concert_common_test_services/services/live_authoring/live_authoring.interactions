@@ -1,1 +1,10 @@
-[]
+- remappings:
+    - remap_from: /voice_command
+      remap_to: /voice_command
+  parameters: {}
+  display_name: Voice Commander
+  name: voice commander
+  role: Customer
+  description: Voice commander to control robot
+  compatibility: 'rocon:/*/*/*/jellybean|ice_cream_sandwich|kitkat'
+  max: -1
