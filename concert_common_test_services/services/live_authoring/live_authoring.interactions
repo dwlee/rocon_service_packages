@@ -3,7 +3,7 @@
   description: Voice commander to control robot
   compatibility: 'rocon:/*/*/*/jellybean|ice_cream_sandwich|kitkat'
   max: -1
-  role: Role
+  role: Customer
   remappings:
     - remap_from: /voice_command
       remap_to: /voice_command
