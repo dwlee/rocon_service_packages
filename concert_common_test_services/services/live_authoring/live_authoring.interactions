@@ -7,3 +7,4 @@
   remappings:
     - remap_from: /voice_command
       remap_to: /voice_command
+  parameters: {}
