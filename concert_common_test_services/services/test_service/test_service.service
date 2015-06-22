@@ -1,0 +1,8 @@
+name: test_service
+description: including date_test_wf
+author: dwlee
+priority: 107
+interactions: concert_common_test_services/test_service
+parameters: concert_common_test_services/test_service
+launcher_type: roslaunch
+launcher: concert_common_test_services/test_service
