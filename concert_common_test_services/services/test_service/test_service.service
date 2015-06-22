@@ -1,7 +1,7 @@
 name: test_service
-description: including date_test_wf
+description: it is test service
 author: dwlee
-priority: 107
+priority: 10000
 interactions: concert_common_test_services/test_service
 parameters: concert_common_test_services/test_service
 launcher_type: roslaunch
