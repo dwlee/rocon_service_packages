@@ -1,5 +1,5 @@
 alloc_timeout: '3600000'
-action_timeout: '300000'
+action_timeout: '180000'
 ar_topic: /annotation/ar_markers
 map_name: october
 map_topic: /map
