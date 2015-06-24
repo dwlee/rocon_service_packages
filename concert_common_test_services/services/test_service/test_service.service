@@ -1,5 +1,5 @@
 name: test_service
-description: it is test service
+description: Delivery drink from Vending machine
 author: dwlee
 priority: 10000
 interactions: concert_common_test_services/test_service

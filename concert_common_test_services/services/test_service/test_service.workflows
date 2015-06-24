@@ -1,2 +1,2 @@
 workflows:
-  - workflow: concert_common_test_services/pickup_delivery_with_time_wf.wf
+  - workflow: concert_common_test_services/vm_delivery_with_time_wf.wf
