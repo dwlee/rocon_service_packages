@@ -1,0 +1,8 @@
+name: sample_ui
+description: create sample polymer ui service
+author: dwlee
+priority: -1
+interactions: concert_common_test_services/sample_ui
+parameters: concert_common_test_services/sample_ui
+launcher_type: roslaunch
+launcher: concert_common_test_services/sample_ui
