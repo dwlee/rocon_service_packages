@@ -1,3 +1,0 @@
-workflows:
-  - workflow: concert_common_test_services/common_func.wf
-  - workflow: concert_common_test_services/welcome_iot_bridge.wf

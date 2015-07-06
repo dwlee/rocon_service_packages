@@ -1,2 +1,0 @@
-alloc_timeout: '3600000'
-workflows: concert_common_test_services/test_service.workflows
