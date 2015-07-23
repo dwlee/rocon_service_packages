@@ -1,2 +1,3 @@
 alloc_timeout: '3600000'
+robot_ip: 192.168.10.28
 workflows: concert_common_test_services/welcome.workflows
