@@ -1,5 +1,5 @@
 - display_name: Voice commander
-  name: com.github.turtlebot.turtlebot_android.voice_commander.indigo
+  name: com.github.rosjava.android_voice_commander.voice_commander.indigo
   description: Voice commander to control robot
   compatibility: 'rocon:/*/*/*/jellybean|ice_cream_sandwich|kitkat'
   max: -1
