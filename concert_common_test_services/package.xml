@@ -22,5 +22,6 @@
         <concert_service>services/live_authoring/live_authoring.service</concert_service>
         <concert_service>services/test_service/test_service.service</concert_service>
         <concert_service>services/sample_ui/sample_ui.service</concert_service>
+        <concert_service>services/pickup_delivery_test/pickup_delivery_test.service</concert_service>
     </export>
 </package>
