@@ -1,0 +1,8 @@
+name: p2p_delivery
+description: Point to point delivery in office
+author: huey
+priority: 111
+interactions: concert_common_test_services/p2p_delivery
+parameters: concert_common_test_services/p2p_delivery
+launcher_type: roslaunch
+launcher: concert_common_test_services/p2p_delivery
