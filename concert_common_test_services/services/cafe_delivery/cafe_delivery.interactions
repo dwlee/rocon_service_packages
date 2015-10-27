@@ -32,7 +32,7 @@
     rosbridge_address: __ROSBRIDGE_ADDRESS__
     rosbridge_port: __ROSBRIDGE_PORT__
     robot1: adams
-    robo2: zach
+    robot2: zach
     robot3: young
   display_name: Pickup Delivery Monitoring
   name: 'web_app(http://__WEBSERVER_ADDRESS__/concert_delivery_monitor/index.html)'
