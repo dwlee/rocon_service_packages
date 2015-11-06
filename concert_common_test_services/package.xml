@@ -25,5 +25,6 @@
         <concert_service>services/pickup_delivery_test/pickup_delivery_test.service</concert_service>
         <concert_service>services/p2p_delivery/p2p_delivery.service</concert_service>
         <concert_service>services/cafe_delivery/cafe_delivery.service</concert_service>
+        <concert_service>services/drink_delivery/drink_delivery.service</concert_service>
     </export>
 </package>

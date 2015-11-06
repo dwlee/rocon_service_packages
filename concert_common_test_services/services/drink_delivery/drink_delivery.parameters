@@ -1,0 +1,10 @@
+alloc_timeout: '3600000'
+action_timeout: '100000'
+ar_topic: /annotation/ar_markers
+map_name: h1104
+map_topic: /map
+table_topic: /annotation/tables
+viz_ar_topic: /annotation/viz_ar_markers
+viz_table_topic: /annotation/viz_tables
+world: headoffice
+workflows: concert_common_test_services/drink_delivery.workflows
