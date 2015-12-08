@@ -1,5 +1,5 @@
-- name: 'web_app(http://__WEBSERVER_ADDRESS__/cafe_delivery_order/index.html)'
-  display_name: Drink Delivery Order
+- display_name: Drink Delivery Order
+  name: 'web_app(http://__WEBSERVER_ADDRESS__/cafe_delivery_order/index.html)'
   description: ROCON smart cafe order
   compatibility: 'rocon:/*/*/indigo/chrome|firefox'
   max: -1
@@ -15,13 +15,7 @@
     rosbridge_address: __ROSBRIDGE_ADDRESS__
     rosbridge_port: __ROSBRIDGE_PORT__
     discard_btn_name: conf_room
-- name: 'web_app(http://__WEBSERVER_ADDRESS__/concert_delivery_monitor/index.html)'
-  display_name: Pickup Delivery Monitoring
-  role: Manager
-  description: 'Monitoring of delivery status regarding order, robot pose, delivery position'
-  compatibility: 'rocon:/*/*/indigo/chrome|firefox'
-  max: -1
-  remappings:
+- remappings:
     - remap_from: map
       remap_to: /map
     - remap_from: tables
@@ -40,10 +34,16 @@
     robot1: adams
     robot2: verdi
     robot3: young
-- name: 'web_app(http://192.168.0.65:9999)'
-  display_name: Workflow monitoring
-  remappings: []
+  display_name: Pickup Delivery Monitoring
+  name: 'web_app(http://__WEBSERVER_ADDRESS__/concert_delivery_monitor/index.html)'
+  role: Manager
+  description: 'Monitoring of delivery status regarding order, robot pose, delivery position'
+  compatibility: 'rocon:/*/*/indigo/chrome|firefox'
+  max: -1
+- remappings: []
   parameters: {}
+  display_name: Workflow monitoring
+  name: 'web_app(http://192.168.0.65:9999)'
   role: Manager
   description: Workflow and resource allocation status monitoring
   compatibility: 'rocon:/*/*/indigo/chrome|firefox'
